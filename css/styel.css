@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* start header home section  */
+
+.header-home {
+    height: 780px;
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+}
+
+.header-home h2 {
+    background-color: #6eac95;
+    color: #fff;
+    padding: 30px;
+    margin: auto;
+    width: 80%;
+    margin-top: 100px;
+    border-radius: 17px;
+    line-height: 1.7;
+    font-size: 39px;
+    word-spacing: 1px;
+    padding-left: 50px;
+}
+
+@media(max-width:991px) {
+    .header-home {
+        background-position: right;
+    }
+
+    .header-home h2 {
+        font-size: 25px;
+    }
+}
+
+/* end header home section  */
+
+
+/* start school home section  */
+
+@media (min-width:768px) and (max-width:991px) {
+    .school-home img {
+        width: 90% !important;
+    }
+
+}
+
+@media (min-width:440px) and (max-width:955px) {
+    .school-home {
+        text-align: center;
+    }
+}
+
+/* end school home section  */
+
+/* start touch home section  */
+
+.touch-home {
+    height: 850px;
+    background: url(../img/Path\ 62.png), url(../img/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+    padding-top: 100px;
+}
+
+@media(max-width:991px) {
+
+    .touch-home {
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+
+}
+
+/* end touch home section  */
+
+/* start footer home section  */
+
+.footer-home {
+    background-color: rgb(15 123 101);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    border-radius: 150px 150px 0 0;
+    color: #fff;
+}
+
+.footer-home h4 {
+    color: rgb(220 133 107);
+    margin-top: 10px;
+}
+
+.footer-home a {
+    display: block;
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+/* end footer home section  */
